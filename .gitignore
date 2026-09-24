@@ -1,0 +1,12 @@
+# Αγνόησε τα μεγάλα παραγόμενα αρχεία δεδομένων
+*.bin
+
+# Αγνόησε τα εκτελέσιμα (compiled) αρχεία
+serial_scaler
+simd_scaler
+omp_scaler
+mpi_scaler
+cuda_scaler
+
+# Αγνόησε κρυφά αρχεία συστήματος
+.DS_Store
