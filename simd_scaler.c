@@ -3,7 +3,10 @@
 #include <string.h>
 #include <math.h>
 #include <float.h>
-#include <immintrin.h> 
+
+// Αφαιρέσαμε το <immintrin.h> και βάλαμε τη βιβλιοθήκη μετάφρασης SIMDe
+#define SIMDE_ENABLE_NATIVE_ALIASES
+#include <simde/x86/avx2.h>
 
 int main(int argc, char* argv[]) {
     if (argc < 6 || argc > 7) {
